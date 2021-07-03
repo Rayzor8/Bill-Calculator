@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,500;0,900;1,500&display=swap');
+
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  letter-spacing: 0.5px;
+}
+
+h6{
+  margin-bottom: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#exampleModal {
+  font-family: 'Tourney', cursive;
+  letter-spacing: 1px;
+}
+
+#exampleModal .modal-header .modal-title, 
+#exampleModal .modal-body .result-title{
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+#exampleModal .modal-body .bill-input form input {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#exampleModal .modal-body .bill-output li span {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width:760px) {
+  #exampleModal .modal-body .bill-output li h6,
+  #exampleModal .modal-body .bill-output li span
+  {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    padding-right : 5px !important;
+    font-size: calc(2vw + 5px);
+    line-height: 1.5;
+    font-weight: bold !important;
+  }
+
+
+}
